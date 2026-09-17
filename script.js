@@ -364,3 +364,8 @@ playAgain.addEventListener("click", startGame);
 
 // Boshlash
 startGame();
+const closeGame = document.getElementById("closeGame");
+
+closeGame.addEventListener("click", () => {
+    gameOverScreen.classList.add("hidden");
+});
